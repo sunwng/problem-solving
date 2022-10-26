@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/H-index" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/가장 큰 수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/게임 맵 최단거리" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/구명보트" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/기능 개발" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/더 맵게" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/올바른 괄호" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/전력망을 둘로 나누기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/전화번호 목록" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/조이스틱" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/큰 수 만들기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/타겟 넘버" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/피로도" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

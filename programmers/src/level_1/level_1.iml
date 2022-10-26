@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/K번째 수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/같은 숫자는 싫어" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/모의고사" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/신고 결과 받기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/완주하지 못한 선수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/체육복" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/최소직사각형" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/포켓몬" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

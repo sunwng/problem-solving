@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba6ec20f-e7d8-4d1a-b693-32ec660f128e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_1065/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_10844/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_11053/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_11054/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_11066/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_1149/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_11726/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_1253/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_12865/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_14501/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_1463/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_15649/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_16234/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_17615/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_1904/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_1912/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_1931/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_1932/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_1978/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_2110/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_2156/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_2193/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_22233/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_2302/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_2531/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_2565/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_2579/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_2616/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_2839/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_4673/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_4963/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_5557/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_7576/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_9095/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_9251/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_9465/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../beakjoon/src/bj_9663/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2Gg4VOxSlvZocsttiTzmJmUuOD7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/wng/Desktop/git_ws/algorithm-test-with-java/programmers"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba6ec20f-e7d8-4d1a-b693-32ec660f128e" name="Changes" comment="" />
+      <created>1666796915306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666796915306</updated>
+      <workItem from="1666796916379" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

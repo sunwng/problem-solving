@@ -6,22 +6,15 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String words = br.readLine().toUpperCase();
-        int[] count = new int[26];
-        for (int i = 0; i < words.length(); i++) {
-            int idx = words.charAt(i) - 65;
-            count[idx]++;
-        }
-        int max = 0;
-        char result = ' ';
-        for (int i = 0; i < 26; i++) {
-            if (count[i] > max) {
-                max = count[i];
-                result = (char) (i + 65);
-            } else if (count[i] == max) {
-                result = '?';
-            }
-        }
-        System.out.println(result);
+        String[] input = br.readLine().split(" ");
+        int H = Integer.parseInt(input[0]);
+        int W = Integer.parseInt(input[1]);
+
+        input = br.readLine().split(" ");
+        int pivot = Integer.parseInt(input[0]);
+        int result = 0;
+        int tempNum = 0;
+
+        
+
     }
-}

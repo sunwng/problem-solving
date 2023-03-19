@@ -1,6 +1,5 @@
-package bj_1065;
+package prob_1065;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class Main {

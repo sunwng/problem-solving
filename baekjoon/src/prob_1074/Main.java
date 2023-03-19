@@ -1,9 +1,8 @@
-package bj_1074;
+package prob_1074;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
 
 public class Main {
     public static int find(int N, int r, int c) {

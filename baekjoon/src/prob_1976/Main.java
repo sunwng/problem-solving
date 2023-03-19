@@ -1,9 +1,8 @@
-package bj_1976;
+package prob_1976;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
 
 public class Main {
     public static int[][] map;

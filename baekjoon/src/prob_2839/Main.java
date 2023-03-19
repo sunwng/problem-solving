@@ -1,4 +1,4 @@
-package bj_2839;
+package prob_2839;
 
 import java.util.*;
 

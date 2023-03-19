@@ -1,4 +1,4 @@
-package bj_1654;
+package prob_1654;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,39 +8,36 @@ import java.util.*;
 public class Main {
     static int K;
     static int N;
-    static int[] info;
+    static int[] wires;
 
-    public static boolean check(long numIn) {
+    public static boolean checker(long target) {
         int count = 0;
-        for (int infoI : info) {
-            count += infoI / numIn;
+        for (int wire : wires) {
+            count += (wire / target);
         }
         return count >= N;
     }
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String[] temp = br.readLine().split(" ");
-        K = Integer.parseInt(temp[0]);
-        N = Integer.parseInt(temp[1]);
-        info = new int[K];
-
+        String[] input = br.readLine().split(" ");
+        K = Integer.parseInt(input[0]);
+        N = Integer.parseInt(input[1]);
+        wires = new int[K];
         for (int i = 0; i < K; i++) {
-            info[i] = Integer.parseInt(br.readLine());
+            wires[i] = Integer.parseInt(br.readLine());
         }
-        long start = 1;
-        long end = (long) (Math.pow(2, 31) - 1);
-//        int result = 1;
+        Arrays.sort(wires);
+        long left = 1;
+        long right = wires[K - 1] + 1;
 
-        while (start <= end) {
-            long mid = ((long) start + end) / 2;
-
-            if (check(mid)) {
-                start = mid + 1;
+        while (left != right) {
+            long mid = (left + right) / 2;
+            if (checker(mid)) {
+                left = mid + 1;
             } else {
-                end = mid - 1;
+                right = mid;
             }
         }
-        System.out.println(end);
+        System.out.println(right);
     }
 }

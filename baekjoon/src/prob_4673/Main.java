@@ -1,4 +1,4 @@
-package bj_4673;
+package prob_4673;
 
 import java.util.*;
 

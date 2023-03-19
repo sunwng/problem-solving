@@ -4,35 +4,39 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class Main {
+    static int K;
     static int N;
-    static int[] given;
-    static int[] sorted;
+    static int[] wires;
+
+    public static boolean checker(long target) {
+        int count = 0;
+        for (int wire : wires) {
+//            if (target > wire) break;
+            count += (wire / target);
+        }
+        return count >= N;
+    }
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        N = Integer.parseInt(br.readLine());
-        given = new int[N];
-        sorted = new int[N];
-        String[] givenString = br.readLine().split(" ");
-        for (int i = 0; i < N; i++) {
-            given[i] = Integer.parseInt(givenString[i]);
-            sorted[i] = Integer.parseInt(givenString[i]);
+        String[] input = br.readLine().split(" ");
+        K = Integer.parseInt(input[0]);
+        N = Integer.parseInt(input[1]);
+        wires = new int[K];
+        for (int i = 0; i < K; i++) {
+            wires[i] = Integer.parseInt(br.readLine());
         }
-        Arrays.sort(sorted);
-        Map<Integer, Integer> rankCheck = new HashMap<>();
-        rankCheck.put(sorted[0], 0);
-        int prev = sorted[0];
-        for (int i = 1; i < N; i++) {
-            if (prev == sorted[i]) continue;
-            rankCheck.put(sorted[i], rankCheck.size());
-            prev = sorted[i];
+        Arrays.sort(wires);
+        long start = 1;
+        long end = wires[K - 1] + 1;
+
+        while (start != end) {
+            long mid = (start + end) / 2;
+            if (checker(mid)) {
+                start = mid + 1;
+            } else {
+                end = mid;
+            }
         }
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < N; i++) {
-            sb.append(rankCheck.get(given[i]));
-            sb.append(" ");
-        }
-        System.out.println(sb);
-        String fa = "jfklad";
-        List<String> test = new ArrayList<>();
+        System.out.println(start);
     }
 }

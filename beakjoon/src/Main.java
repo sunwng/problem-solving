@@ -32,5 +32,7 @@ public class Main {
             sb.append(" ");
         }
         System.out.println(sb);
+        String fa = "jfklad";
+        List<String> test = new ArrayList<>();
     }
 }

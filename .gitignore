@@ -1,6 +1,10 @@
+/.idea
 /baekjoon/out/
 /baekjoon/.idea/
 /baekjoon/baekjoon.iml
 /programmers/out/
 /programmers/.idea
 /programmers/programmers.iml
+/leetcode/out/
+/leetcode/.idea
+/leetcode/leetcode.iml

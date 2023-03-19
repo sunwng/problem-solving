@@ -1,4 +1,6 @@
 /baekjoon/out/
-/baekjoon/.idea/
+# /baekjoon/.idea/
+# /baekjoon/baekjoon.iml
 /programmers/out/
-/programmers/.idea
+# /programmers/.idea
+# /programmers/programmers.iml

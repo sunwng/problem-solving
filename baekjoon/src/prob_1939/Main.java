@@ -68,6 +68,7 @@ public class Main {
 
         while (left <= right) {
             int mid = (left + right) / 2;
+
             if (checkWeight(start, end, mid)) {
                 left = mid + 1;
             } else {

@@ -7,7 +7,6 @@ class Solution {
         List<List<Integer>> answer = new ArrayList<>();
         answer.add(new ArrayList<>());
         answer.add(new ArrayList<>());
-
         Set<Integer> set1 = new HashSet<>();
         for (int num1 : nums1) set1.add(num1);
         Set<Integer> set2 = new HashSet<>();

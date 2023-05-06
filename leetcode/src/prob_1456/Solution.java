@@ -1,5 +1,7 @@
 package prob_1456;
 
+import java.util.*;
+
 class Solution {
 
     int N;

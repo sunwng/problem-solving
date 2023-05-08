@@ -32,6 +32,7 @@ class Solution {
             if (idx < i) continue;
             answer = (answer + power[idx - i]) % MOD;
         }
+
         return answer;
     }
 }

@@ -9,4 +9,4 @@
 /leetcode/.idea
 /leetcode/leetcode.iml
 *.iml
-output/
+out/

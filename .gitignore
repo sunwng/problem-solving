@@ -8,3 +8,5 @@
 /leetcode/out/
 /leetcode/.idea
 /leetcode/leetcode.iml
+*.iml
+output/
